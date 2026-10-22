@@ -30,14 +30,15 @@ img{display:block;max-width:100%}
 .icons{display:flex;gap:8px}.icons a{display:flex;align-items:center;gap:6px;padding:10px;font-size:12px}
 
 /* hero */
-.hero{padding-top:40px;padding-bottom:110px;text-align:center}
-.stagegrid{display:grid;grid-template-columns:1fr minmax(300px,460px) 1fr;align-items:center;gap:0}
+.top{background:#18181A}
+.hero{padding-top:24px;padding-bottom:96px;text-align:center}
+.stagegrid{display:grid;grid-template-columns:1fr minmax(280px,400px) 1fr;align-items:center;gap:0}
 .word{font-family:'Bodoni Moda',serif;font-size:clamp(64px,10vw,172px);line-height:1;letter-spacing:-.02em}
 .word.l{text-align:right;margin-right:-40px;position:relative;z-index:2}
 .word.r{text-align:left;margin-left:-40px;font-style:italic;color:var(--gold);position:relative;z-index:2}
-.stage{aspect-ratio:3/4.3;overflow:hidden;position:relative}
+.stage{aspect-ratio:3/4;overflow:hidden;position:relative}
 .stage img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.hero .lead{max-width:560px;margin:46px auto 34px;font-size:18px;line-height:1.75;color:#cfc8bb}
+.hero .lead{max-width:560px;margin:40px auto 32px;font-size:18px;line-height:1.75;color:#cfc8bb}
 .ctas{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
 
 /* ingredients */
@@ -119,6 +120,7 @@ footer{padding:64px 0 36px}
 </head>
 <body>
 
+<div class="top">
 <div class="bar">Keratine met arganolie<span>·</span>Parabenenvrij<span>·</span>Gratis verzending vanaf €[bedrag]</div>
 <header class="wrap head">
 <nav class="nav" aria-label="Hoofdmenu"><a href="shop.html">Shop</a><a href="shop.html">Haarverzorging</a><a href="shop.html">Borstels</a></nav>
@@ -139,6 +141,8 @@ footer{padding:64px 0 36px}
 <p class="lead">Keratine en arganolie voor sterk, glad en glanzend haar — zichtbaar gezonder vanaf het eerste gebruik.</p>
 <div class="ctas"><a class="btn btn-gold" href="serum.html">Shop het serum</a><a class="btn btn-line" href="shop.html">Bekijk de collectie</a></div>
 </section>
+
+</div>
 
 <section class="ingr">
 <div class="wrap grid">
