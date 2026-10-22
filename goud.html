@@ -75,6 +75,8 @@ img{display:block;max-width:100%}
 .split{display:grid;grid-template-columns:1fr 1fr;min-height:720px}
 .split .media{position:relative;overflow:hidden;min-height:520px}
 .split .media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.split .media.olive{background:radial-gradient(circle at 50% 45%,#6B6E45 0%,#55583A 55%,#45472F 100%);display:flex;align-items:center;justify-content:center}
+.split .media.olive img{position:relative;inset:auto;width:auto;height:78%;object-fit:contain;filter:drop-shadow(0 30px 28px rgba(0,0,0,.45))}
 .split .copy{display:flex;flex-direction:column;justify-content:center;gap:26px;padding:90px clamp(28px,6vw,110px);background:var(--panel)}
 .split h2{font-size:clamp(38px,4.2vw,58px);line-height:1.06;margin:0}
 .split h2 em{color:var(--gold)}
@@ -190,7 +192,7 @@ footer{padding:64px 0 36px}
 <p>Ontdek de intens herstellende werking van MIAGI Shampoo met keratine en arganolie. Sulfaat-, parabenen- en siliconenvrij.</p>
 <div><a class="btn btn-gold" href="shop.html">Shop de shampoo — € [prijs]</a></div>
 </div>
-<div class="media"><img src="img/hero-shampoo.jpg" alt="MIAGI Shampoo met keratine en arganolie" style="object-position:50% 45%"></div>
+<div class="media olive"><img src="img/shampoo-cutout.png" alt="MIAGI Shampoo met keratine en arganolie"></div>
 </section>
 
 <section class="quote" id="over">
