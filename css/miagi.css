@@ -285,3 +285,15 @@ body{font-weight:400;-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;te
 .brush:hover img{transform:translateZ(0) scale(1.05)}
 .stage img{filter:drop-shadow(0 22px 22px rgba(40,28,0,.28))}
 @media (max-width:600px){.card .sub,.brush .sub{font-size:14px}.bar{font-size:11px}}
+
+/* ===== Foto's even groot op gsm als op de computer (vaste kaders, ook in Safari/iPhone) ===== */
+.card .img,.brush .img,.stage,.arch{position:relative}
+.card .img img{position:absolute;inset:0;margin:auto;width:78%;height:86%;max-width:none;max-height:none;object-fit:contain}
+.card .img img.wide{width:92%}
+.card .num,.card .tag,.limited{z-index:1}
+.brush .img img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain}
+.stage img{position:absolute;inset:0;margin:auto;height:88%;width:auto;max-width:90%;object-fit:contain}
+.arch img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover}
+.mini a{position:relative;overflow:hidden}
+.mini img{position:absolute;inset:0;margin:auto;width:80%;height:86%;max-width:none;max-height:none;object-fit:contain}
+.panel-product-image img{width:auto;max-width:100%}
