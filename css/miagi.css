@@ -253,3 +253,35 @@ html{scroll-behavior:smooth}
 .bar .bar-more{font-style:normal}
 .bar a{white-space:nowrap}
 @media (max-width:600px){.bar .bar-more{display:none}}
+
+/* ===== Scherpere tekst en beelden ===== */
+:root{--muted:#4B463F}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-weight:400;-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;text-rendering:optimizeLegibility;font-kerning:normal}
+.serif,h1,h2,h3{font-optical-sizing:auto;font-kerning:normal}
+.hero p,.page-head .lead,.feature p,.sec-head p,.service .lead{font-weight:400;color:#46413A}
+.eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.28em}
+.bar{font-size:12px;font-weight:500;color:#F2EEE6}
+.nav{font-weight:500}
+.btn,.link,.chip{font-weight:500}
+.card h3,.brush h3,.group-head h2,.steps h3,.faq summary,.panel-head h2,.panel-product h3{font-weight:500}
+.card .sub,.brush .sub{font-size:14.5px;line-height:1.5;color:var(--muted)}
+.brush h3{font-size:20px}
+.card .price,.brush .price{font-weight:500}
+.ticks div,.steps p,.faq p,.info p,.foot a,.foot .soc,.legal{color:#46413A}
+.ticks div{font-size:14px}
+.marquee span{font-weight:400}
+.limited{font-size:10.5px;font-weight:500;letter-spacing:.14em}
+.photo-controls button{font:inherit;font-size:13px;font-weight:500}
+.brush-detail{font-weight:500;font-size:12.5px}
+.quote small{color:#D6CFC3;font-size:15.5px}
+.seal{font-weight:500}
+.mini small{color:#46413A;font-weight:500}
+.card .tag{font-weight:500;color:#4B463F}
+/* beelden: geen vervagende overvloeiing op uitgesneden producten */
+.card .img img,.mini img{mix-blend-mode:normal;image-rendering:auto}
+.card .img img,.brush img{backface-visibility:hidden;transform:translateZ(0)}
+.card:hover .img img{transform:translateZ(0) scale(1.04)}
+.brush:hover img{transform:translateZ(0) scale(1.05)}
+.stage img{filter:drop-shadow(0 22px 22px rgba(40,28,0,.28))}
+@media (max-width:600px){.card .sub,.brush .sub{font-size:14px}.bar{font-size:11px}}
