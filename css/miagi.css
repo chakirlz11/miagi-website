@@ -297,3 +297,5 @@ body{font-weight:400;-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;te
 .mini a{position:relative;overflow:hidden}
 .mini img{position:absolute;inset:0;margin:auto;width:80%;height:86%;max-width:none;max-height:none;object-fit:contain}
 .panel-product-image img{width:auto;max-width:100%}
+/* borstelfoto's naadloos op de ivoorkleur */
+.brush .img{background:#F6F3EE}
