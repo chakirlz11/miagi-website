@@ -1,3 +1,5 @@
 # MIAGI Haircare website
 
-Statische website (index.html, shop.html, serum.html). Online zetten via GitHub Pages: Settings → Pages → Branch: main / root.
+Hoofdsite: index.html, shop.html, haarverzorging.html, borstels.html, over.html (stijl in css/, script in js/, foto's in img/).
+
+Oudere ontwerpvarianten staan in de map varianten/.
